@@ -1,4 +1,4 @@
-import enchant
+import enchant #Library to generate or search in english dictionary
 import random
 letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 def check_word(): #Generates a random word
@@ -12,7 +12,7 @@ def check_word(): #Generates a random word
 word=check_word()
 chance=1
 
-def input_word(word,chance):
+def input_word(word,chance): #User inputs the new word and checks cows and bulls
     guess=input("Enter a 5 letter word:: ")
 
     cow=0
