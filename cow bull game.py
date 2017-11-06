@@ -27,13 +27,13 @@ def input_word(word,chance): #User inputs the new word and checks cows and bulls
                 cow+=1
     print("Cows are {}".format(cow))
     print("Bulls are {}".format(bull))
-    print("The word is "+word)
+    #print("The word is "+word)
     if chance==1:
         print("You have compeleted {} chance".format(chance))
     else:
         print("You have compeleted {} chances".format(chance))
     if chance==10 and bull!=5:
-        print("Sorry, You lost the game")
+        print("Sorry, You lost the game. The word is {}".format(word))
         exit()
     if chance<=10 and bull==5:
         print("You won the game")
