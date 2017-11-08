@@ -1,5 +1,7 @@
 Welcome to Cow and Bull game!!
 
+Do 'pip install pyEnchant'
+
 Description of the game!
     
     If a person thinks 5 letter word in mind, the other guy has to guess it within 10 attempts to win the game. 
