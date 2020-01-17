@@ -24,4 +24,4 @@ Description of the game!
     If we guess 'Train' with in 10th chance, then we get all the bulls and we win the game.
     
     
-    Play this and give me your feed back. Thanks!!
+    Play this and give me your feedback. Thanks!!
